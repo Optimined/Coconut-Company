@@ -7,6 +7,11 @@ integrated *“Domestic Operations + Overseas Manufacturing”* model.
 Built as a fast, dependency-free **static site** (HTML + CSS + vanilla JS) — no
 build step, hosts anywhere.
 
+**Brand direction:** an established, heritage trading-house identity — ivory,
+deep palm green, and antique brass; a classic serif display face; a wax-seal
+palm crest; hairline rules; and restrained motion. (No neon, glass, or
+animated gimmicks.)
+
 ## Run it locally
 
 Just open `index.html` in a browser. That's it.
@@ -36,7 +41,7 @@ assets/
 
 ## Sections (mirrors the company deck)
 
-1. **Hero** — animated particle field, headline, live spec stats
+1. **Hero** — wax-seal crest, serif headline, ledger of key spec stats
 2. **Company Overview** — the two entities + integrated synergy
 3. **Domestic Operations** — Changzhou Archimedes (6 capabilities)
 4. **Manufacturing** — Philippines base, 3 strengths + 4 production pillars
@@ -52,7 +57,11 @@ assets/
 
 - **Text/contact details:** edit directly in `index.html`.
 - **Colors & type:** all tokens live at the top of `styles.css` under `:root`
-  (deep navy + molten gold palette; `Sora` headings, `Inter` body).
+  (ivory / deep palm green / antique brass; `Playfair Display` headings,
+  `Source Sans 3` body).
+- **Crest / founding year:** the hero seal is inline SVG in `index.html`
+  (`.hero__crest`). The lower arc reads `ACTIVATED CARBON` — swap it for
+  `EST. <year>` once you have a founding year.
 - **Photos:** see `assets/README.md` — drop a JPG in `assets/` and it's picked
   up automatically.
 
