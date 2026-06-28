@@ -7,10 +7,9 @@ integrated *“Domestic Operations + Overseas Manufacturing”* model.
 Built as a fast, dependency-free **static site** (HTML + CSS + vanilla JS) — no
 build step, hosts anywhere.
 
-**Brand direction:** an established, heritage trading-house identity — ivory,
-deep palm green, and antique brass; a classic serif display face; a wax-seal
-palm crest; hairline rules; and restrained motion. (No neon, glass, or
-animated gimmicks.)
+**Brand direction:** a bright, tropical identity on a compact, information-dense
+layout — vivid teal, lime, mango, and coral on a mint base; a classic serif
+display face; a palm-crest seal; and restrained motion.
 
 ## Run it locally
 
@@ -57,8 +56,8 @@ assets/
 
 - **Text/contact details:** edit directly in `index.html`.
 - **Colors & type:** all tokens live at the top of `styles.css` under `:root`
-  (ivory / deep palm green / antique brass; `Playfair Display` headings,
-  `Source Sans 3` body).
+  (bright tropical — teal / lime / mango / coral on mint; `Playfair Display`
+  headings, `Source Sans 3` body).
 - **Crest / founding year:** the hero seal is inline SVG in `index.html`
   (`.hero__crest`). The lower arc reads `ACTIVATED CARBON` — swap it for
   `EST. <year>` once you have a founding year.
